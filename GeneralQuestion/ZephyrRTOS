@@ -1,0 +1,6 @@
+Zephyr RTOS:
+	Zephyr RTOS is the open source and that supports the different architectures.
+	Mainly used for IoT based solution.
+	It is written in C language and provided license under Apache open source License.
+	It is Secure and looks like powerful RTOS for the embedded appplications.
+	It supports different communications like Bluetooth,CAN,IP ,etc. Looks good for the  working with Zephyr RTOS and the working with different architectures and boards.

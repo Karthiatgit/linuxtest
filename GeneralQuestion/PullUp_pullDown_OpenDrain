@@ -1,0 +1,19 @@
+Open Drain:
+	Open Drain is the output port configuration in ICs.It has transistor emitter is connected internally to the ground, and collector is open on the IC pin.
+	It has two states ground and floating state(high impedance).
+	Pull up resistor are used in the configuration in oreder to pull the state of the line high or low .
+	It can be used as bidirectional pin.
+	
+Pull up Resistor:
+	It is the  resistor which is connected to the supply and other end is connected to the pin of the microcontroller.It is used to define the state of the pin under all conditions.
+	It pull the pin to high state.
+
+Pull Down Resistor:
+	It is the resistor connected between the ground and the microcontroller pin.It pull down the pin to the ground.when the supply is given it pull the pin to high state,when it is open, it will pull the pin to ground state.It is used to defined the state of the pin.
+	Normally the pull/pull down  are used to interface with switch, controller,logic gates,etc.
+	It can be came with internal programmble pullup/pull down configuration.
+	
+Active High and Active Low:
+	Active low mweans pull the pin by connecting to the ground.
+	Active high means pull the higb by connecting to the supply normally(3.3V or 5V).
+	It is can be seen in the microcontroller.

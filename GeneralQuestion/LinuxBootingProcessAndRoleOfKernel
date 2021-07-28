@@ -1,0 +1,46 @@
+Linux Booting Process:
+	Linux Booting process has different stages.It shows how the linux operating systems starts 
+while switch on the computer.
+	1.BIOS
+	2.MBR
+	3.Bootloader
+	4.Kernel
+	5.Init
+	
+BIOS:
+	BIOS Stands for the  Basic Input Output Systems.In this stage, it performs the POST and  proceed with initial ckecks on the hardware.If the Hardware is present, it proceeds to the next stage.
+	
+MBR:
+	After completing the BIOS, the next stage is MBR(Master Boot Record) which performs the booting and disk partioning.
+	MBR is piece of code located at the first sector of the hard drive.It loads the bootloader.
+
+Bootloader:
+	there are different bootloader are used for the booting .Normally latest version is GRUB2
+Stands for Grand Unified Bootloader.
+	It used to load the kernel into the RAM, inorder to execute the Kernel files.
+
+Kernel Initialization:
+	Kernel is the heart of the linux operating systems.
+	It interfaces the hardware process.
+	Once the kernel loads it extracts the file from compressed version in order to performs the task.
+	There are different version of the kernel.
+	It act as bridge between the hardware and the user.
+	It mounts the root file systems and initalise the  sbin/init .
+	
+Init:
+	init is the first program to executed and its process id is always 1.
+	It inits the daemons and the mounts all the patitions that are specified in the /ect/fstab/ file.
+	Next it runs the runlevel programs located in the /etc.
+	
+	
+Role of Kernel:
+	Kernel is the core of the linux operating systems.
+	It used to manages the hardware and the processes in the os.
+	It manages the RAM memeory, and manages the different pheripherals connected to the computer.
+	Kernel is loaded by the bootlaoder.
+	Kernel files are located in the /boot folder of the linux file structure.
+	It manages the Process, Interrupt, memeory and  I/O commuincation.
+	It acts as bridge between the user application and underlying hardware.
+	
+
+		  

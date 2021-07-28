@@ -1,0 +1,18 @@
+I2C:
+    I2C is stands for Inter Intergrated Circuit.
+    It is a synchoronous, serial,two wired protocol(SCL & SDA).
+    Half Duplex, multi master and mulit slave configuration.
+    Frame Format:
+    		  1.start bit
+    		  2.7 or 10 bit slave Address with read/write bit
+    		  3.Ack
+    		  4.8-bit data
+    		  5.Ack
+    		  6.8-bit data
+    		  7.Ack
+                 8.Stop    
+     Data transferred with different rates
+     		 1.Standard Mode - 100 Kb/s
+     		 2.Fast Mode - 400 Kb/s
+     		 3.Fast Mode Plus - 1 Mb/s
+     		 4.High Speed Mode - 3.4 Mb/s
